@@ -8,13 +8,19 @@
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "example",
+    "heroku"
+  ],
+  "author": "ozge-erkeskin",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.20.2",
     "ejs": "^3.1.9",
     "express": "^4.18.2",
     "pg": "^8.11.3"
+  },
+  "engines": {
+    "node": "20.x"
   }
 }
